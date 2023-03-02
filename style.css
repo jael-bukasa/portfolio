@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/img/blue-pattern.jpg);
+}
+header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-left: 36px;
+margin-right: 280px;
+margin-top: 30px;
+
+}
+nav a{
+    margin: 0 18px;
+}
+a:hover{
+    color: black;
+}
+a{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #df12ed;
+}
+header p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+.contenaire{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    position: relative;
+}
+.sscontenaire{
+    width: 40%;
+    /* height: 100%;  */
+    height: 800px;
+    left: -80px;
+    /* margin-left: -300px; */
+    bottom: -88px;
+    position: absolute;
+    background-image: url('/img/jael.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.text{
+position: absolute;
+right: 0;
+bottom: -10px;
+}
+h1,p{
+    color: white;
+    font-family: poppins;
+  }
+h1,.presantation{
+    font-size: 46px;
+    width: 800px;
+}
+.separe{
+padding-top: 80px;
+}
+
+.pr{
+    font-size: 27px;
+width: 457px;
+bottom: 130px;
+position: absolute;
+}
+.icone{
+    width: 27px;
+    height: 32px;
+    color: #2F88FF;
+}
+
+.mainabout{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
+.H1about{
+    margin-left: 520px;
+    padding: 90px;
+}
+.dvabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around;
+    align-items: space-evely;
+    padding: 30px;  */
+}
+.dvabout-container{
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    }
+.Experience{
+    margin-right: 20%;
+}
+.Completed,.Experience{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #87869A;
+    position: relative;
+    /*
+    width: 293px;
+    height: 105px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #FFFFFF;
+    display: flex; 
+    align-items: center; */
+}
+.Experience-direction{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.Experience-titre{
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    top:65%;
+    left: 43%;
+}
+.Completed h3,.Experience h3{
+   /* font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;  */
+    }
+    
+.Completed img,.Experience img{
+    width: 30px;
+    height: 35px;
+}
+.pabout{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-family: poppins;
+}
+.image{
+    display: flex;
+    justify-content: space-around;
+   }
+  .image img{
+    width: 178px;
+    height: 151px;
+  } 
+  .text1{
+    margin-left: 720px;
+  }
+  .text2{
+    margin-left: 750px;
+  }
+.imageportfolio{
+    display: flex;
+    justify-content: space-around;
+    }
+.imageportfolio img{
+    width: 245px;
+    height: 215px;
+}
+.divpage{
+width: 1200px;
+height: 787px;
+background: #4899D1;
+display: flex;
+flex-direction: column;
+align-items: center;
+color: #FFFFFF;
+
+}
+button{
+width: 352px;
+height: 57px;
+background: #87869A;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+margin-left: 230px;
+
+}
+.mainpage{
+    display: flex;
+    justify-content: center;
+}
+.imagepage{
+    
+    height: 50px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 10px;
+}
+
+.uil__soc{
+
+    width: 20%;  
+}
+
+.uil{
+    color: white;
+    font-size: 40px;
+}
+.uil:hover{
+    color: #df12ed;
+}
+.claspage h1{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+}
+input{
+width: 596px;
+height: 0px;
+left: 347px;
+top: 374px;
+border: 1px solid #FFFFFF;
+margin: 60px;
+}
+#Message{
+    margin: 110px;   
+}
+
